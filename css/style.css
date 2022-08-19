@@ -29,3 +29,34 @@ h3 {
     box-shadow: 5px 5px 5px red;
 }
 
+.container {
+    width: 100%;
+    background-color:black;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: blueviolet;
+}
+
+.left-menu {
+    float: left;
+    width: 30%;
+    height: 400px;
+    background-color: aqua;
+}
+
+.right-menu {
+    float: right;
+    width: 70%;
+    height: 400px;
+    background-color: aquamarine;
+}
+
+.footer {
+    clear: both; /*float 관련 버그 해소*/
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+}
