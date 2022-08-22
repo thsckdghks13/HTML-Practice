@@ -31,7 +31,6 @@ h3 {
 
 .container {
     width: 100%;
-    background-color:black;
 }
 
 .header {
@@ -42,21 +41,43 @@ h3 {
 
 .left-menu {
     float: left;
-    width: 30%;
-    height: 400px;
+    /* display: inline-block; */
+    width: 70%;
+    height: 300px;
     background-color: aqua;
 }
 
 .right-menu {
     float: right;
-    width: 70%;
-    height: 400px;
+    /* display: inline-block; */
+    width: 30%;
+    height: 300px;
     background-color: aquamarine;
 }
 
 .footer {
-    clear: both; /*float 관련 버그 해소*/
+    /* clear: both; float 관련 버그 해소 */
     width: 100%;
     height: 100px;
     background-color: blue;
+}
+
+.proimg {
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+
+.navbar>li{
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.navbar a{
+
+    text-decoration: none;
 }
